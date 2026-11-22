@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karanja Ng'ang'a</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#top">Karanja<span>.</span></a>
+    <nav class="main" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a class="pill" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="view" data-view="home">
+    <div class="hero">
+      <div>
+        <div class="mono">Michael Karanja Ng'ang'a &middot; Nairobi, Kenya</div>
+        <h1>Full-stack developer building web products for <em>real clients.</em></h1>
+        <p class="lede">I'm an Applied Computer Technology student at USIU-Africa and the founder of MK Agency. I take client projects from requirements to deployment, with a focus on backend and database design.</p>
+        <div class="cta">
+          <a class="btn primary" href="#work">See my work</a>
+          <a class="btn ghost" href="https://github.com/Karanja-max">GitHub &nearr;</a>
+        </div>
+      </div>
+      <aside class="status" aria-label="Current status">
+        <dl>
+          <div class="row"><dt class="mono">Looking for</dt><dd><span class="dot" aria-hidden="true"></span>Software Engineering internship, starting January 2027</dd></div>
+          <div class="row"><dt class="mono">Running</dt><dd>MK Agency, building sites and web apps for local businesses since March 2026</dd></div>
+          <div class="row"><dt class="mono">Studying</dt><dd>BSc Applied Computer Technology, USIU-Africa (expected 2028)</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="stack" aria-label="The stack I reach for first">
+      <div class="label mono">The stack I reach for first</div>
+      <div class="node"><b>Client</b><span>React, Next.js</span></div>
+      <div class="arrow" aria-hidden="true">&rarr;</div>
+      <div class="node"><b>API</b><span>NestJS</span></div>
+      <div class="arrow" aria-hidden="true">&rarr;</div>
+      <div class="node"><b>ORM</b><span>Prisma</span></div>
+      <div class="arrow" aria-hidden="true">&rarr;</div>
+      <div class="node"><b>Database</b><span>PostgreSQL</span></div>
+    </div>
+
+    <section id="work">
+      <div class="sec-head">
+        <div class="mono">Selected work</div>
+        <div>
+          <h2>Client projects and builds, and what I did on each.</h2>
+          <p>Two projects for paying clients, one hackathon app and one hardware simulation. Baple Gadgets and AkiliPay have full case studies.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="mono">Client work &middot; MK Agency</div>
+          <h3>Baple Gadgets</h3>
+          <p class="what">An online store selling gadgets, including iPhones.</p>
+          <ul class="did">
+            <li>Designed a custom database schema in Prisma so products can be ranked in a chosen order instead of by date added.</li>
+            <li>Built the dynamic checkout data flow that connects the storefront to the backend.</li>
+          </ul>
+          <a class="case-link" href="#baple-gadgets">Read the case study &rarr;</a>
+          <div class="chips"><span class="chip">Next.js</span><span class="chip">NestJS</span><span class="chip">Prisma</span></div>
+        </article>
+
+        <article class="card">
+          <div class="mono">Client work &middot; MK Agency</div>
+          <h3>CleanSpace Services Limited</h3>
+          <p class="what">The website of a cleaning company.</p>
+          <ul class="did">
+            <li>Reworked the mobile-responsive layouts so pages load faster and work better on phones.</li>
+            <li>Fixed core theme errors on the live site.</li>
+          </ul>
+          <div class="chips"><span class="chip">HTML/CSS</span><span class="chip">Responsive design</span></div>
+        </article>
+
+        <article class="card">
+          <div class="mono">Hackathon &middot; March 2026</div>
+          <h3>AkiliPay</h3>
+          <p class="what">A progressive web app built for a university hackathon.</p>
+          <ul class="did">
+            <li>Architected the app as a PWA using React and Vite.</li>
+            <li>Delivered a working MVP ahead of a tight deadline, then presented the architecture and the live deployment to the judges.</li>
+          </ul>
+          <a class="case-link" href="#akilipay">Read the case study &rarr;</a>
+          <div class="chips"><span class="chip">React</span><span class="chip">Vite</span><span class="chip">PWA</span></div>
+        </article>
+
+        <article class="card">
+          <div class="mono">Hardware &middot; August 2026</div>
+          <h3>Wireless Cold-Chain Integrity Monitor</h3>
+          <p class="what">A simulated system that monitors temperature and light in real time.</p>
+          <ul class="did">
+            <li>Designed a dual-Arduino master/slave architecture in a Tinkercad simulation.</li>
+            <li>Wired temperature sensors and photoresistors to digital outputs and showed live readings on I2C LCD screens.</li>
+          </ul>
+          <div class="chips"><span class="chip">Arduino</span><span class="chip">C++</span><span class="chip">Tinkercad</span></div>
+        </article>
+      </div>
+
+      <div class="also">
+        <div>
+          <div class="mono">Client work &middot; MK Agency</div>
+          <h4>Content creator portfolio</h4>
+          <p>A static portfolio site with GPU-accelerated CSS marquees and custom JavaScript YouTube modals.</p>
+        </div>
+        <div>
+          <div class="mono">Client work &middot; MK Agency</div>
+          <h4>SEO and analytics setup</h4>
+          <p>Configured analytics visibility and claimed Google Business Profile ownership for client sites.</p>
+        </div>
+        <div>
+          <div class="mono">Personal &middot; November 2025</div>
+          <h4>API-driven Recipe Finder</h4>
+          <p>A JavaScript app that pulls data from an external API and renders results. Code published on GitHub and written up on dev.to.</p>
+        </div>
+      </div>
+      <p class="more"><a href="https://github.com/Karanja-max">More code on GitHub &nearr;</a></p>
+    </section>
+
+    <section id="timeline">
+      <div class="sec-head">
+        <div class="mono">Timeline</div>
+        <div>
+          <h2>What I built, in order.</h2>
+          <p>Four projects in under a year, from a first API app to a client store to hardware.</p>
+        </div>
+      </div>
+      <ol class="timeline">
+        <li><div class="mono when">August 2026</div><div><h3>Wireless Cold-Chain Integrity Monitor</h3><p>Designed a dual-Arduino monitor in a Tinkercad simulation, reading temperature and light sensors and showing live data on LCD screens.</p></div></li>
+        <li><div class="mono when">March 2026</div><div><h3>AkiliPay</h3><p>Architected a React and Vite progressive web app for a university hackathon and presented the live deployment to the judges.</p></div></li>
+        <li><div class="mono when">March 2026</div><div><h3>Started MK Agency</h3><p>Began taking on paying clients, including Baple Gadgets and CleanSpace Services Limited.</p></div></li>
+        <li><div class="mono when">November 2025</div><div><h3>API-driven Recipe Finder</h3><p>Built and published a JavaScript app that renders data from an external API, with the code on GitHub and a write-up on dev.to.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="about">
+      <div class="sec-head">
+        <div class="mono">About</div>
+        <h2>From a client's rough idea to a deployed site.</h2>
+      </div>
+      <div class="sec-head flush">
+        <div></div>
+        <div class="about-body">
+          <p>I study Applied Computer Technology at USIU-Africa in Nairobi. In March 2026 I started MK Agency, where I build and maintain websites and web apps for local businesses and handle everything from requirements to deployment.</p>
+          <p>Working with clients taught me to debug in production and to turn loosely stated needs into technical decisions. Now I want to work with a larger team, have my code reviewed, and strengthen my data structures, algorithms and system design.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="sec-head">
+        <div class="mono">Skills</div>
+        <div>
+          <h2>What I use, and where I have used it.</h2>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill">
+          <h3>Frontend</h3>
+          <div class="chips flat"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Vite</span><span class="chip">HTML/CSS</span><span class="chip">PWA</span></div>
+          <p class="where">Used in AkiliPay, Baple Gadgets and CleanSpace.</p>
+        </div>
+        <div class="skill">
+          <h3>Backend and data</h3>
+          <div class="chips flat"><span class="chip">NestJS</span><span class="chip">Prisma</span><span class="chip">PostgreSQL</span><span class="chip">REST APIs</span></div>
+          <p class="where">Used in Baple Gadgets and the Recipe Finder.</p>
+        </div>
+        <div class="skill">
+          <h3>Languages</h3>
+          <div class="chips flat"><span class="chip">JavaScript</span><span class="chip">C++</span><span class="chip">Python</span></div>
+          <p class="where">JavaScript across the web projects, C++ on the cold-chain monitor.</p>
+        </div>
+        <div class="skill">
+          <h3>Hardware and tools</h3>
+          <div class="chips flat"><span class="chip">Arduino</span><span class="chip">Tinkercad</span><span class="chip">Git</span><span class="chip">GitHub</span></div>
+          <p class="where">Hardware prototyping on the cold-chain monitor, Git on every project.</p>
+        </div>
+      </div>
+      <div class="working"><b>Working on now:</b> data structures, algorithms and system design.</div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="band">
+        <div>
+          <div class="mono">Contact</div>
+          <h2>Looking for a software engineering internship, starting January 2027.</h2>
+          <p>If you're hiring interns or want to talk about a project, send me a message.</p>
+        </div>
+        <div class="links">
+          <div><span class="k">Email</span><span class="v" id="email">michaelnganga4787@gmail.com</span><button class="copy" id="copyBtn" type="button">Copy</button></div>
+          <a href="https://www.linkedin.com/in/michael-nganga-5909a22a8"><span class="k">LinkedIn</span><span class="v">michael-nganga &nearr;</span></a>
+          <a href="https://github.com/Karanja-max"><span class="k">GitHub</span><span class="v">Karanja-max &nearr;</span></a>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="view" data-view="baple-gadgets" hidden>
+      <a class="back" href="#work">&larr; All work</a>
+      <div class="case-head">
+        <div class="mono">Case study &middot; Client work &middot; MK Agency</div>
+        <h1>Baple Gadgets</h1>
+        <p>An online store selling gadgets, including iPhones. I designed how its products are ranked and built its checkout data flow.</p>
+      </div>
+      <dl class="facts">
+        <div><dt class="mono">Role</dt><dd>Lead developer</dd></div>
+        <div><dt class="mono">Client</dt><dd>Baple Gadgets</dd></div>
+        <div><dt class="mono">Year</dt><dd>2026</dd></div>
+        <div><dt class="mono">Stack</dt><dd>Next.js, NestJS, Prisma</dd></div>
+      </dl>
+      <div class="cs">
+        <h2 class="mono">The problem</h2>
+        <p>The store needed to show products in an order its owner chooses, not only newest first, and its checkout needed to move order data between the storefront and the backend.</p>
+      </div>
+      <div class="cs">
+        <h2 class="mono">What I built</h2>
+        <ul>
+          <li>A custom database schema in Prisma that supports non-chronological product ranking.</li>
+          <li>The dynamic checkout data flow, using Next.js on the storefront and NestJS on the backend.</li>
+        </ul>
+      </div>
+      <div class="cs">
+        <h2 class="mono">How ranking works</h2>
+        <p>Products are ranked through a hierarchical schema defined in Prisma, not by sorting on the date they were added.</p>
+      </div>
+      <div class="case-nav">
+        <a href="#work">&larr; All work</a>
+        <a href="#akilipay">Next: AkiliPay &rarr;</a>
+      </div>
+    </div>
+
+    <div class="view" data-view="akilipay" hidden>
+      <a class="back" href="#work">&larr; All work</a>
+      <div class="case-head">
+        <div class="mono">Case study &middot; Hackathon &middot; March 2026</div>
+        <h1>AkiliPay</h1>
+        <p>A progressive web app built for a university hackathon and delivered ahead of a tight deadline.</p>
+      </div>
+      <dl class="facts">
+        <div><dt class="mono">Role</dt><dd>Architected the app</dd></div>
+        <div><dt class="mono">Context</dt><dd>University hackathon</dd></div>
+        <div><dt class="mono">Date</dt><dd>March 2026</dd></div>
+        <div><dt class="mono">Stack</dt><dd>React, Vite, PWA</dd></div>
+      </dl>
+      <div class="cs">
+        <h2 class="mono">The problem</h2>
+        <p>A hackathon deadline left little time. The goal was a working mobile web app, deployed and ready to demo to the judges.</p>
+      </div>
+      <div class="cs">
+        <h2 class="mono">What I built</h2>
+        <ul>
+          <li>The app's architecture, as a progressive web app using React and Vite.</li>
+          <li>A fully functional MVP, delivered ahead of the deadline.</li>
+        </ul>
+      </div>
+      <div class="cs">
+        <h2 class="mono">Approach</h2>
+        <p>A PWA runs in the mobile browser and needs no app store release, which suits a short build and a live demo.</p>
+      </div>
+      <div class="cs">
+        <h2 class="mono">Outcome</h2>
+        <p>I presented the application architecture and the live deployment to the evaluation judges.</p>
+      </div>
+      <div class="case-nav">
+        <a href="#work">&larr; All work</a>
+        <a href="#baple-gadgets">Next: Baple Gadgets &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span>&copy; 2026 Michael Karanja Ng'ang'a</span>
+    <span>Built in Nairobi.</span>
+  </footer>
+</div>
+
+</body>
+</html>
